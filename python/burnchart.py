@@ -18,7 +18,8 @@ plt.plot(preferable_progress_line);
 
 # Actual progress
 # Points done is the value in the done section achieved per week of work
-points_done = [1]; 
+# Sums of points in done section per week
+points_done = [1, 5]; 
 
 progress_line = []; 
 for i in range(len(points_done)):
@@ -27,6 +28,6 @@ for i in range(len(points_done)):
 
 print(points_done); 
 print(progress_line); 
-plt.plot(progress_line, 'rs'); 
+plt.plot(progress_line, 'r'); 
 
 plt.show(); 
